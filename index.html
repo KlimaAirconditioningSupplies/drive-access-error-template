@@ -2,57 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>This site can’t be reached</title>
+  <title>Flag Raising Ceremony Attendance</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- ✅ Social Media Preview (Thumbnail Title & Description) -->
-  <meta property="og:title" content="Flag Raising Ceremony Attendance">
-  <meta property="og:description" content="This Google Drive folder could not be loaded. Access may be restricted or removed.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://klimaairconditioningsupplies.github.io/drive-access-error-template/">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Google_Drive_icon_%282020%29.svg/512px-Google_Drive_icon_%282020%29.svg.png">
-
   <style>
     body {
-      background: #fff;
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
       color: #333;
+      margin: 0;
       padding: 2rem;
     }
     .container {
       max-width: 600px;
-      margin: 6rem auto;
-      text-align: left;
+      margin: 5rem auto;
+    }
+    img {
+      width: 24px;
+      vertical-align: middle;
+      margin-right: 0.5rem;
     }
     h1 {
-      color: #d32f2f;
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
+      font-weight: normal;
+      font-size: 24px;
+      margin: 1rem 0 0.5rem;
     }
-    p {
-      line-height: 1.5;
+    .url {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 1.5rem;
     }
     ul {
-      margin: 1rem 0 2rem;
+      list-style-type: disc;
+      padding-left: 1.5rem;
     }
-    code {
-      background: #eee;
-      padding: 0.2rem 0.4rem;
-      border-radius: 4px;
+    ul li {
+      margin: 0.5rem 0;
+    }
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .error-code {
+      color: #555;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>This site can’t be reached</h1>
-    <p><strong>drive.google.com</strong> unexpectedly closed the connection.</p>
-    <p>Try:</p>
+    <p>
+      <img src="https://www.gstatic.com/images/icons/material/system/1x/error_outline_black_24dp.png" alt="Error icon">
+      <strong>This site can’t be reached</strong>
+    </p>
+    <div class="url">drive.google.com took too long to respond.</div>
+    <div>Try:</div>
     <ul>
       <li>Checking the connection</li>
-      <li>Checking the proxy and the firewall</li>
-      <li>Running Windows Network Diagnostics</li>
+      <li><a href="#">Checking the proxy and the firewall</a></li>
+      <li><a href="#">Running Windows Network Diagnostics</a></li>
     </ul>
-    <p><code>ERR_CONNECTION_CLOSED</code></p>
+    <div class="error-code">ERR_CONNECTION_TIMED_OUT</div>
   </div>
 </body>
 </html>
